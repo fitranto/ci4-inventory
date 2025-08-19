@@ -17,7 +17,7 @@ A simple **Login & Register system** with an **Inventory (Items) CRUD** module b
 
 ---
 
-## ⚙️ Database Setup
+## ⚙️ Setup
 
 1. **Install Dependencies**
 
