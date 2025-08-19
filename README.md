@@ -19,7 +19,13 @@ A simple **Login & Register system** with an **Inventory (Items) CRUD** module b
 
 ## ⚙️ Database Setup
 
-1. **Create Database**
+1. **Install Dependencies**
+
+```bash
+composer install
+```
+
+2. **Create Database**
 
 Connect to MySQL and create a new database:
 
@@ -27,7 +33,7 @@ Connect to MySQL and create a new database:
 CREATE DATABASE inventory_db;
 ```
 
-2. **Run Migrations**
+3. **Run Migrations**
 
 Run the following to create required tables:
 
@@ -41,7 +47,7 @@ This will create:
 - `ci_sessions` (for session storage)
 - `items` (for inventory)
 
-3. **Seed Default Admin User**
+4. **Seed Default Admin User**
 
 You can generate a default admin user and item with:
 
